@@ -49,7 +49,7 @@ if (!$transactionId) {
 }
 
 // mesma URL encriptada da Dutty Pay usada no pagamento
-$apiUrl = 'https://www.pagamentos-seguros.app/api-pix/7DLMuyyJvEgx8KT6CIva6rQVojNpM6UubMd0sgVdJ50ClvRR67wzrDO043p7Qh1EDxe28lvh7FsI434Fy4IJog';
+$apiUrl = 'https://www.pagamentos-seguros.app/api-pix/79SNVAUnB8QDtofnzx3CIeS-MEfGM436ILsEX9PTTFaJjKuEJ3D0YJtZNOX1r61FJOV91G8eND7YTiZtgN5LOw';
 
 // monta URL de consulta com o transactionId
 $consultUrl = $apiUrl . '?transactionId=' . urlencode($transactionId);
