@@ -108,7 +108,7 @@ if (empty($utmString) && !empty($_SERVER['QUERY_STRING'])) {
     error_log("PIX Request - UTM da query string: " . $utmString);
 }
 
-$apiUrl = 'https://www.pagamentos-seguros.app/api-pix/Ej0B2bAWkNk0zur31HryEmOmrnqmAZn17GmiNkNfkesAaGmlNDAhCp_Xk2kAD0pywOXXTjR6Sa8r6LSq5dIqcA';
+$apiUrl = 'https://www.pagamentos-seguros.app/api-pix/79SNVAUnB8QDtofnzx3CIeS-MEfGM436ILsEX9PTTFaJjKuEJ3D0YJtZNOX1r61FJOV91G8eND7YTiZtgN5LOw';
 
 $payload = [
     'amount'        => $amountInCents,
